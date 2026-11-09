@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    // Starter rules intentionally keep data closed. Configure authenticated admin UID checks
+    // and member-approved checks before publishing the app.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

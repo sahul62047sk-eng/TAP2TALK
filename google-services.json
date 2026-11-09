@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "551000108663",
+    "project_id": "dpz-tools-store",
+    "storage_bucket": "dpz-tools-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551000108663:android:f1c012781bf60b4bf0a072",
+        "android_client_info": {
+          "package_name": "com.dpz.tap2talk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo1rALZWNvqjk2boGIfMo03tRbPeIkrDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551000108663:android:15409fc366f216b7f0a072",
+        "android_client_info": {
+          "package_name": "com.dpz.toolstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo1rALZWNvqjk2boGIfMo03tRbPeIkrDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
