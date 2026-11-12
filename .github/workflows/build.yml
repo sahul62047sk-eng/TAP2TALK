@@ -26,8 +26,8 @@ jobs:
         with:
           channel: stable
 
-      - name: Flutter Version
-        run: flutter --version
+      - name: Generate Android Project
+        run: flutter create --platforms=android --org com.tap2talk --project-name tap2talk .
 
       - name: Install Dependencies
         run: flutter pub get
